@@ -1,0 +1,33 @@
+header {
+  padding: 40px 60px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-profile {
+  display: flex;
+}
+
+.header-profile-link {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 10px;
+  background-color: transparent;
+  border: none;
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+}
+
+.header-profile-link:hover {
+  color: RGBA(209, 84, 25, 1);
+}
+
+.avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}

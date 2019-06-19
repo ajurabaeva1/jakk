@@ -1,0 +1,82 @@
+.exhibit-container {
+  padding: 40px 60px;
+  box-sizing: border-box;
+  display: flex;
+}
+
+.main-data-block {
+  display: flex;
+}
+.main-image {
+  position: relative;
+  height: 400px;
+  box-shadow: 0 0 80px RGBA(0, 0, 0, 0.5);
+  position: sticky;
+  top: 20px;
+}
+
+.exhibit-controls {
+  margin-top: 30px;
+  margin-right: 50px;
+  display: flex;
+  justify-content: flex-end;
+}
+.exhibit-control {
+  box-sizing: border-box;
+  background-color: transparent;
+  margin-left: 10px;
+  text-align: center;
+  outline: none;
+  padding: 10px 25px;
+  font-size: 18px;
+  border: none;
+  border-radius: 2px;
+  color: black;
+  cursor: pointer;
+}
+.exhibit-control:hover {
+  color: RGBA(209, 84, 25, 0.6);
+}
+.exhibit-control:active {
+  color: RGBA(209, 84, 25, 1);
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 0 200px 0 60px;
+  line-height: 2;
+}
+
+.description {
+  margin-right: 140px;
+}
+.exhibit-h2 {
+  width: 400px;
+  margin: 0 0 15px 0;
+  text-align: start;
+  font-family: 'Oswald', sans-serif;
+  font-size: 35px;
+  letter-spacing: 2px;
+}
+.artist {
+  margin-top: 0;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  color: RGBA(209, 84, 25, 1);
+  font-size: 20px;
+}
+
+.gallery-title {
+  font-family: 'Oswald', sans-serif;
+  font-size: 25px;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  letter-spacing: 2px;
+}
+
+.gallery-images {
+  padding: 20px;
+  width: 300px;
+}

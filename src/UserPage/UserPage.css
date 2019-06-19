@@ -1,0 +1,62 @@
+.user-exhibits {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.user-exhibit {
+  width: 200px;
+}
+
+.create-btn {
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.3);
+  border: none;
+  width: 200px;
+  height: 300px;
+}
+.create-btn:hover {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.create-btn:active {
+  background-color: RGBA(209, 84, 25, 1);
+}
+
+.userpage-container {
+  display: flex;
+  flex-direction: row;
+  margin: 50px 60px 0;
+}
+
+.h3-create-exh {
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  outline: none;
+  font-size: 50px;
+  font-weight: lighter;
+  padding-top: 15px;
+  line-height: 1.5;
+}
+.remove-style-dec {
+  text-decoration: none;
+  outline: none;
+}
+.btn-text-container {
+  display: flex;
+  flex-direction: column;
+
+  width: 200px;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: 2px;
+  outline: none;
+  cursor: pointer;
+}
+
+.user-exhibition {
+  margin: 0 80px;
+  padding-top: 0;
+}
+
+.all-exhibitions {
+  margin-top: 0;
+}

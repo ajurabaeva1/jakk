@@ -1,0 +1,51 @@
+.exhibits-container {
+  padding-top: 80px;
+  display: flex;
+  width: 100%;
+  height: 600px;
+  overflow-y: hidden;
+  overflow-x: auto;
+  column-count: 5;
+  column-gap: 0px;
+}
+.title {
+  font-family: 'Oswald', sans-serif;
+  margin: 0;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 40px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  font-size: 10px;
+  outline: none;
+  text-decoration: none;
+}
+.exhibitions {
+  margin-top: 20px;
+  width: 300px;
+  height: 400px;
+  box-shadow: 0 0 80px RGBA(0, 0, 0, 0.5);
+  transition: transform 0.2s ease-out;
+}
+.exhibitions:hover {
+  transform: scale(1.2);
+}
+
+.exhibit-name {
+  margin: 5px 0;
+  outline: none;
+  color: black;
+  text-align: center;
+  font-size: 20px;
+}
+
+.artist-name {
+  font-size: 12px;
+  margin: 0px;
+  color: RGBA(209, 84, 25, 0.8);
+  text-align: center;
+}
